@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oneo input {
+    margin: 9px 0px;    
+}
+.mama input{
+    background-color: #FBBB16;
+    border: none;
+    padding: 9px 10px;
+    width: 250px;
+    border-radius: 8px;
+    
+}
+.mama ::placeholder {
+    padding-left: 10px;
+    color: black;
+}
+.btbtn button{
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    
+}
+.page2{
+    color: rgb(0, 0, 0);
+}
+.rcrc h1{
+    color: #FBBB16;
+    font-weight: 700;
+
+}
+.page2{
+    /* background-image: url(./reportcard.jpg); */
+    /* background-position: center; */
+    /* background-size: auto; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% ; */
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .sapp span{
+    color: rgb(255, 0, 0);
+  }
+
+
+
+th{
+    padding: 4px
+}

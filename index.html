@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row rcrc">
+            <center><h1>REPORT CARD</h1> <br>FAUGET MODERN SCHOOL</center> <br> <br>
+            <hr>
+        </div> -->
+    </div>
+    <div class="container-fluid mama pt-3">
+        <div class="row ">
+            <div class="oneo col-lg-6 col-xl-6 pb-3"
+                >
+                <div class="student_pd">
+                    <div class="row pt-3">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+                            <label for="StudentName">Student name:</label>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+                            <input type="text" id="userInput" placeholder="Student Name">
+                        </div>
+
+                    </div> <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="Class">Class:</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="number" id="userInput2"
+                                placeholder="Class"></div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="Section">Section:</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="text" id="userInput3"
+                                placeholder="Section"></div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="Gender">Gender:</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="text" id="userInput4"
+                                placeholder="Gender"></div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="email">Email:</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="Email" id="userInput5"
+                                placeholder="Email"></div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="Teacher name">Class Teacher's
+                                Name</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="text" id="userInput6"
+                                placeholder="Teacher's Name"></div>
+                    </div>
+
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label for="DOB">Date of Birth</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input type="date" id="userInput7"
+                                placeholder="DOB"></div>
+                    </div>
+
+                    <br>
+                </div>
+                <div class="student_md">
+                    <div class="book1 row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label>Computer</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input id="bookOne" type="number" name=""
+                                placeholder="Marks"></div>
+
+
+                    </div>
+                    <div class="book2 row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label>English</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input id="bookTwo" type="number" name=""
+                                placeholder="Marks"></div>
+
+
+                    </div>
+                    <div class="book3 row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label>Maths</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input id="bookThree" type="number" name=""
+                                placeholder="Marks"></div>
+
+
+                    </div>
+                    <div class="book4 row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label>Physics</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input id="bookFour" type="number" name=""
+                                placeholder="Marks"></div>
+
+
+                    </div>
+                    <div class="book5 row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><label>Chemistry</label></div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"><input id="bookFive" type="number" name=""
+                                placeholder="Marks"></div>
+
+
+                    </div>
+
+                </div>
+                <div class="row btbtn pt-3">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6"></div>
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6">
+                        <button id="calculate" onclick="calculate()">Submit</button>
+                        <!-- <button id="calculate">Submit</button> -->
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-6 col-xl-6 page2 ">
+
+                <div class="rcrc">
+                    <center><h1>REPORT CARD</h1> <br>FAUGET MODERN SCHOOL</center>
+            <hr>
+                </div>
+
+                <table style="width:100% ">
+                    <tr style="background-color: #FBBB16;">
+                      <th>Student Details</th>
+                      <th>Class Details</th>
+                    </tr>
+                    <tr>
+                      <th>Name</th>
+                      <td><div id="resultContainer"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Class</th>
+                        <td><div id="resultContainer2"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Section</th>
+                        <td><div id="resultContainer3"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td><div id="resultContainer4"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td><div id="resultContainer5"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Teacher's Name</th>
+                        <td><div id="resultContainer6"></div></td>
+                      
+                    </tr>
+                    <tr>
+                        <th>Date of Birth</th>
+                        <td><div id="resultContainer7"></div></td>
+                      
+                    </tr>
+                  </table>
+                    <br>
+
+
+                    <!-- table for marks -->
+                  
+                    <div class="table2 pt-5">
+                    <table style="width: 100%;">
+                        <tr style="background-color: #FBBB16;">
+                            <th>Subjects </th>
+                            <th>Marks</th>
+                        </tr>
+                        <tr>
+                            <th>Computer</th>
+                            <td id="outputDiv"></td>
+                        </tr>
+                        <tr>
+                            <th>English</th>
+                            <td id="outputDiv2"></td>
+                        </tr>
+                        <tr>
+                            <th>Maths</th>
+                            <td id="outputDiv3"></td>
+                        </tr>
+                        <tr>
+                            <th>Physics</th>
+                            <td id="outputDiv4"></td>
+                        </tr>
+                        <tr>
+                            <th>Chemistry</th>
+                            <td id="outputDiv5"></td>
+                        </tr>
+                        <tr>
+                            <th>Total</th>
+                            <td id="obtain2"></td>
+                        </tr>
+                    </table>
+                  </div> 
+                  <div class="table2 pt-5">
+                    <table style="width: 100%;">
+                        <tr style="background-color: #FBBB16;">
+                            <th>Total Marks Out of</th>
+                            <th>500</th>
+                        </tr>
+                        <tr>
+                            <th>Obtained Marks</th>
+                            <td id="obtain"></td>
+                        </tr>
+                        <tr>
+                            <th>Percentage</th>
+                            <td id="per"></td>
+                        </tr>
+                        <tr>
+                            <th>Grade</th>
+                            <td id="grade"></td>
+                        </tr>
+                        <tr>
+                            <th>Remarks</th>
+                            <td id="remarks"></td>
+                        </tr>
+                    </table>
+                  </div>
+                  
+
+
+
+
+                
+
+                    <!-- <div class="student_detail">
+                        <center><div id="resultContainer"> Your Name is:</div></center><br>
+                        <center><div id="resultContainer2">Your Class is</div></center><br>
+                        <center><div id="resultContainer3">Your Section is:</div></center><br>
+                        <center><div id="resultContainer4">Your Gender is:</div></center><br>
+                        <center><div id="resultContainer5">Your Email is:</div></center><br>
+                        <center><div id="resultContainer6">Your Class Teacher's name is:</div></center><br>
+                        <center><div id="resultContainer7">Your DOB is:</div></center> <br>
+
+                        <input type="text" id="resultContainer"> -->   
+                    <!-- </div> -->
+
+                    <!-- <div class="student_detail2">
+
+                        <center><div>Total Marks = 500</div></center> <br>
+                        <center>Obtained Marks<div id="obtain"></div></center><br>
+                        <center>Percentage<div id="per"></div></center><br>
+                        <center>Grade<div id="grade"></div></center><br>
+                        <center>Remarks<div id="remarks"></div></center>
+                    </div>  -->
+                <!-- <table>
+                    <tr>
+                        <td>Total Marks</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Obtained Marks</td>
+                        <td id="obtain"></td>
+                    </tr>
+                    <tr>
+                        <td>Percentage</td>
+                        <td id="per"></td>
+                    </tr>
+                    <tr>
+                        <td>Grade</td>
+                        <td id="grade"></td>
+                    </tr>
+                    <tr>
+                        <td>Remarks</td>
+                        <td id="remarks"></td>
+                    </tr>
+                </table> -->
+
+
+
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12">
+                            <h5>Grading System - </h5>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 sapp">
+                            <h6>  A: Excellent. <br> <br>
+
+                                B: Good. <br> <br>
+                                
+                                C: Average. <br> <br>
+                                
+                                D: Below Average, Poor. <br> <br>
+                                
+                                <span>F: Failure, Incomplete.</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var calculate = document.getElementById("calculate");
+        calculate.addEventListener("click", function () {
+            // Get the value from the input box
+            var inputValue = document.getElementById("userInput").value;
+            var inputValue2 = document.getElementById("userInput2").value;
+            var inputValue3 = document.getElementById("userInput3").value;
+            var inputValue4 = document.getElementById("userInput4").value;
+            var inputValue5 = document.getElementById("userInput5").value;
+            var inputValue6 = document.getElementById("userInput6").value;
+            var inputValue7 = document.getElementById("userInput7").value;
+
+            // Process the input (in this example, just display it)
+            document.getElementById("resultContainer").textContent = inputValue;
+            document.getElementById("resultContainer2").textContent = inputValue2;
+            document.getElementById("resultContainer3").textContent = inputValue3;
+            document.getElementById("resultContainer4").textContent = inputValue4;
+            document.getElementById("resultContainer5").textContent = inputValue5;
+            document.getElementById("resultContainer6").textContent = inputValue6;
+            document.getElementById("resultContainer7").textContent = inputValue7;
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
